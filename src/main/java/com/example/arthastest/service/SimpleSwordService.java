@@ -8,6 +8,6 @@ class SimpleSwordService implements SwordService {
 
     @Override
     public String getSword() {
-        return "Sword X - 1000 REST online edit";
+        return "Sword X - 1000 REST online edit 2";
     }
 }
