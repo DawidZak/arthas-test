@@ -16,6 +16,7 @@ public class SimpleRestController {
 
     @GetMapping("/arthas")
     public String getSword() throws InterruptedException {
+        System.out.println("Yet another change");
         return swordService.getSword();
     }
 }
